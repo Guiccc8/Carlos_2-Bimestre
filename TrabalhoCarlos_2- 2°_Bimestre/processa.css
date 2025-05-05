@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+
+}
+
+.separation{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 0px 10px 0px 10px;
+    background-color: #fff;
+
+    
+}
+
+.separation p{
+    font-size: large;
+    white-space: normal;
+
+}
+
+
+.separation:first-child{
+    margin-top: 10px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+.separation:last-child{
+    margin-bottom: 10px;
+    border-radius:  0px 0px 20px 20px;
+
+}
+
+.any{
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgb(241, 83, 83);
+
+}
+
+.emailUsuario, .nameUsuario{
+    width: 50%;
+    text-align: center;
+    
+}
+
+.idUsuario{
+    margin-left: 10px;
+}
+
+.Registro{
+    text-align: center;
+}
+
+.novo{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
